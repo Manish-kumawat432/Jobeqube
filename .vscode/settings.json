@@ -1,0 +1,10 @@
+{
+    "tailwindCSS.includeLanguages": {
+  "plaintext": "html",
+  "javascript": "javascript",
+  "javascriptreact": "javascript"
+},
+"tailwindCSS.experimental.configFile": "./tailwind.config.js",
+"css.validate": false
+
+}

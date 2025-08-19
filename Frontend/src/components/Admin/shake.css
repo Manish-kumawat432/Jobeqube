@@ -1,0 +1,13 @@
+.input-error {
+  border: 2px solid #f44336 !important;
+  animation: shake-box 0.4s ease-in-out;
+}
+
+@keyframes shake-box {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-5px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-5px); }
+  80% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
